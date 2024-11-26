@@ -1,3 +1,4 @@
+
 # Création d'un groupe de ressources
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
@@ -12,3 +13,4 @@ resource "azurerm_storage_account" "storage" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
